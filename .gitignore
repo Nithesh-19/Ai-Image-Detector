@@ -1,0 +1,23 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven
+**/target/
+
+# React / Node
+**/node_modules/
+**/dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AI models not currently uploaded
+ai-content-detector/src/main/resources/models/model-smogy.onnx
+ai-content-detector/src/main/resources/models/model.onnx
